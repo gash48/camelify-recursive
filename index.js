@@ -1,6 +1,3 @@
-const log = console.log.bind(console)
-
-// https://stackoverflow.com/a/35976812/123671
 const snakeToCamelCase = function(str) {
 	return str
 		.split('_')
@@ -8,7 +5,7 @@ const snakeToCamelCase = function(str) {
 			// The word 'ID' is always 'ID'
 			// Prevents 'Id' in output which is weird
 			if (word === 'id') {
-				return 'ID'
+				return 'id'
 			}
 
 			// If it is the first word make sure to lowercase all the chars.

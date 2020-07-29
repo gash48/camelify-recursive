@@ -1,6 +1,6 @@
 {
 	"name": "camelify-recursive",
-	"version": "2.0.5",
+	"version": "2.0.6",
 	"description": "Recursively convert an API response to camelCase",
 	"main": "index.js",
 	"scripts": {
@@ -15,7 +15,8 @@
 		"snakecase",
 		"case"
 	],
-	"author": "Mike MacCana <mike.maccana@gmail.com>",
+	"author": "Mike <mike.maccana@gmail.com>",
+	"coAuthor": "Gash <gangster.thesecretgun@gmail.com>",
 	"license": "MIT",
 	"dependencies": {},
 	"devDependencies": {
